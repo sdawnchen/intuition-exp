@@ -7,15 +7,15 @@ This is the code for the experiment in "Enhancing acquisition of intuition versu
 
 Here is the first screen in the relaxed problem condition, which shows the rules of the puzzle and an example of the puzzle:
 
-![First screen for relaxed condition](https://github.com/sdawnchen/intuition-exp/screenshots/relaxed_first_screen.png)
+![First screen for relaxed condition](https://github.com/sdawnchen/intuition-exp/blob/master/screenshots/relaxed_first_screen.png)
 
 Here is a typical screen during the training phase in the control condition (screens during the test phase for all conditions look the same):
 
-![Example training puzzle for control condition](https://github.com/sdawnchen/intuition-exp/screenshots/control_training_puzzle.png)
+![Example training puzzle for control condition](https://github.com/sdawnchen/intuition-exp/blob/master/screenshots/control_training_puzzle.png)
 
 Here is an example of a pairwise distance comparison in the intuition assessment phase for all conditions.
 
-![Example pairwise comparison](https://github.com/sdawnchen/intuition-exp/screenshots/distance_comparison.png)
+![Example pairwise comparison](https://github.com/sdawnchen/intuition-exp/blob/master/screenshots/distance_comparison.png)
 
 More screenshots are in the `screenshots` folder.
 

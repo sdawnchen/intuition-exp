@@ -20,13 +20,13 @@ Here is an example of a pairwise distance comparison in the intuition assessment
 More screenshots are in the `screenshots` folder.
 
 
-# Program Files
+# Source Files
 
-The `gui`, `puzzles`, `util`, and `analysis` folders contain my code and compiled classes. Here are more detailed descriptions of the files within each folder:
+The `gui`, `puzzles`, `util`, and `analysis` folders contain my code. Here are more detailed descriptions of the files within each folder:
 
 * `gui`: This folder contains GUI-related code. `Experiment.java` contains the main GUI code and entry point for the experiment. `PuzzleViewer` is a simple component for displaying a sliding-tile puzzle state, used by `PuzzleMover` (which handles making moves on the puzzle) and `PuzzleChooser` (which handles choosing a puzzle in the intuition assessment phase).
 
-* `puzzles`: This folder contains the logic for sliding-tile puzzles. `Puzzle` is the abstract base class for all other kinds of sliding-tile puzzles. It contains methods for performing A\* search and generating a new random puzzle. `NGoalsPuzzle` is the type of puzzles used in the training phase of the subproblem condition, in which only a subset of the tiles must be moved into their correct places. `NSwappableTilesPuzzle` is the type of puzzles used in the training phase of the relaxed problem condition, in which some tiles can be swapped with their neighbors.
+* `puzzles`: This folder contains the logic for sliding-tile puzzles. `Puzzle` is the abstract base class for all other kinds of sliding-tile puzzles. It contains methods for performing A\* search to find the optimal solution for a puzzle and generating a new random puzzle to be solved. `NGoalsPuzzle` is the type of puzzles used in the training phase of the subproblem condition, in which only a subset of the tiles must be moved into their correct places. `NSwappableTilesPuzzle` is the type of puzzles used in the training phase of the relaxed problem condition, in which some tiles can be swapped with their neighbors.
 
 * `util`: Utility classes for randomly generating puzzles for the training, test, and intuition assessment phases (`PuzzleFileGenerator`) and reading puzzles from a file (`PuzzleFileParser`).
 

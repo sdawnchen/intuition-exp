@@ -8,8 +8,8 @@ import java.util.Date;
 import java.util.Vector;
 
 public class PuzzleTester {
-	private static Puzzle puzzle;
-	public static long startTime;
+    private static Puzzle puzzle;
+    public static long startTime;
 
     private static void createAndShowGUI() {
         //Create and set up the window.
@@ -28,8 +28,8 @@ public class PuzzleTester {
     }
 
     public static void main(String[] args) {
-    	puzzle = new NSwappableTilesPuzzle(3, 3, 3, 3);
-    	puzzle.newRandomPuzzle();
+        puzzle = new NSwappableTilesPuzzle(3, 3, 3, 3);
+        puzzle.newRandomPuzzle();
         //Schedule a job for the event-dispatching thread:
         //creating and showing this application's GUI.
         javax.swing.SwingUtilities.invokeLater(new Runnable() {

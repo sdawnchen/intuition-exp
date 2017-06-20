@@ -1,6 +1,6 @@
 # Overview
 
-This is the code for the experiment in "Enhancing acquisition of intuition versus planning in problem solving" (Chen & Holyoak, 2010, *CogSci Proceedings*). You can read the paper [here](https://www.researchgate.net/publication/255484359_Enhancing_Acquisition_of_Intuition_versus_Planning_in_Problem_Solving). The code was written in 2008-2009 for [Java SE 5](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase5-419410.html).
+This is the code for the experiment in "Enhancing acquisition of intuition versus planning in problem solving" (Chen & Holyoak, 2010, *CogSci Proceedings*). You can read the paper [here](http://www.dawnchen.info/papers/intuition_CogSci_2010.pdf). The code was written in 2008-2009 for [Java SE 5](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase5-419410.html).
 
 
 # Screenshots
